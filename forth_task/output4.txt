@@ -1,0 +1,33 @@
+lambda 1 = -0.400052
+lambda 2 = 1.14016
+lambda 3 = -2.56537
+Eigenvectors:
+E.v. 1: (0.707083, 0.0105574, 0.707051)
+|vect(1)|_2= 1
+ --> Already normalized
+E.v. 2: (-0.0149314, 0.999889, 2.14046e-06)
+|vect(2)|_2= 1
+ --> Already normalized
+E.v. 3: (-0.706973, -0.0105588, 0.707162)
+|vect(3)|_2= 1
+ --> (-0.706973, -0.0105588, 0.707162)
+Approximation eval: 0.000807959
+Iterations needed = 16
+Factual Iterations = 11
+Approx first lambda = -2.56533
+Approx first vector = (-26078.5, -397.505, 26081.5)
+After normalization: (-0.707025, -0.0107769, 0.707106)
+Checker:
+A*y = (1.8138, 0.0268399, -1.81399)
+lamb1*y = (1.81376, 0.0276464, -1.81396)
+
+Scalar Method:
+Approximation eval: 5.46082e-07
+Iterations needed = 25
+Factual Iterations = 15
+Approx first lambda = -2.56537
+Approx first vector = (1.25499e+08, 1.87424e+06, -1.25512e+08)
+After normalization: (0.707029, 0.010559, -0.707106)
+Checker:
+A*y = (1.8138, 0.0268399, -1.81399)
+lamb1*y = (1.81378, 0.0276468, -1.81399)
